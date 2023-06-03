@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+	<meta charset="UTF-8">
+	<title>Automatic Image Slider in HTML CSS</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div style="background-image:url(https://i.postimg.cc/Gt8rSnFh/1.jpg)"></div>
+      <div style="background-image:url(https://i.postimg.cc/0r1gWM5c/2.jpg)"></div>
+      <div style="background-image:url(https://i.postimg.cc/MHVZp8v3/3.jpg)"></div>
+      <div style="background-image:url(https://i.postimg.cc/wxL9Jgj0/4.jpg)"></div>
+      <div style="background-image:url(https://i.postimg.cc/k560mvVf/5.jpg)"></div>
+	</div>
+
+<style>
+  body {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background-color: #000;
+}
+.wrapper>div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: animate 25s infinite;
+	opacity: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.wrapper>div:nth-child(2) {
+	animation-delay: 5s;
+}
+.wrapper>div:nth-child(3) {
+	animation-delay: 10s;
+}
+.wrapper>div:nth-child(4) {
+	animation-delay: 15s;
+}
+.wrapper>div:nth-child(5) {
+	animation-delay: 20s;
+}
+@keyframes animate {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	40% {
+		transform: scale(1.2);
+	}
+}
+
+</style>
+</body>
+</html>

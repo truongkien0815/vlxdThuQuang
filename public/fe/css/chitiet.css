@@ -1,0 +1,49 @@
+#lienhe_nhe{
+    /* padding-top: 25px; */
+}
+#input_mmail{
+    background: #fff;
+    height: 45px;
+    left: 6px;
+    border: 1px solid #ededed;
+    position: relative;
+    width: 80%;
+}
+#buttton_mail{
+    width: 45px;
+    height: 45px;
+    background-color: #00aeef;
+    border: 1px solid #008bbf;
+    color: #ffffff;
+    font-size: 1.2rem;
+   
+}
+.anco> ul li{
+    float: left;
+}
+
+.anco{
+    background: #00cdf9;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 800px) {
+    #lienhe_nhe {
+        padding-top: 0;
+    }
+    #lienhe_nhe li {
+        margin-top: 15px;
+        margin-right: 10px !important;
+        width: 100% !important;
+    }
+
+    #lienhe_nhe li >.btn{
+        font-size: 1rem !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.dacta{
+    font-size: 1.3rem;
+}

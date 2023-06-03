@@ -1,0 +1,55 @@
+bien trong css
+:root {
+--text-color: green;
+}
+h1{
+ color : var(--text-color);
+}
+
+các đơn vị trong css
+đơn vị tuyệt đối
+px,pt,cm,mm,inch,pc:
+đơn vị tương đối
+%
+
+ thuộc tính margin: đây là thuộc tính tạo ra một khoảng cách giữa các thẻ. 
+
+*{
+css cho tat cả các thẻ
+}
+calc(120px -2) : hàm tính toán
+rgba(),rgb()
+
+lớp giả trong css
+:root,:hover,active,first-child,:last-child
+
+::before,after,first-letter,first-line,selection
+
+vd:.container::after{
+    content: '';
+    display: block;
+    width: 150px;
+    height: 100px;
+    background: yellow;
+}
+
+margin: khoảng cách 
+float: left chiều ngang bên trái
+box-sizing: border-box;
+
+thuộc tính vị trí: position: realative + top left..
+vị trí tương đối lấy chính mình làm tọa độ
+absolute:vị trí tuyệt đối, phụ thuộc vào thẻ cha để làm goc tọa độ
+https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+
+
+themify icon
+
+
+@media only screen and(max-width: 1024px){
+// nếu max width thì màn hình nhỏ hơn hoặc bằng 1024
+ h1{
+css
+}
+}
+

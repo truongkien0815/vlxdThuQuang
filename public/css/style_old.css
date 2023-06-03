@@ -1,0 +1,52 @@
+
+.image img {
+	width: 100%;
+}
+.text {
+	background: blak;
+	padding: 22px 14px;
+	text-align: justify;
+	margin-top: 0px;
+}
+.text h2 {
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.text p {
+	font-size: 18px;
+
+}
+.text a {
+	color: red;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.asa img {
+	width: 100%;
+	margin-top: 72px;
+	height: 700px;
+	object-fit: contain;
+}
+.slider.slider-2 h2 {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ayush {
+	color: green;
+	text-align: center;
+	width: 100%;
+	font-size: 35px;
+	text-shadow: 2px 2px 1px black;
+	margin-top: 41px;
+	margin-bottom: 37px;
+}

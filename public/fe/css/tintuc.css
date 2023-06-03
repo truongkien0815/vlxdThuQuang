@@ -1,0 +1,13 @@
+.category>a{
+    color: #1a7ed3;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.category>span{
+    color: #1a7ed3;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}

@@ -1,0 +1,164 @@
+.price{
+    color:#e83a45;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.sanpham>.ct8bd>.image>a>img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    position: relative;
+}
+
+.image:hover img{
+   
+    -webkit-transform: scale(1.1) !important;
+	transform: scale(1.1) !important;
+}
+
+.img-all-sp>.row>.col-md-9{
+  border-left: 1px solid #d0c5c5;
+    border-top: 1px solid #d0c5c5;
+}
+.sanpham {
+     border-bottom: 1px solid #d0c5c5;
+    border-right: 1px solid #d0c5c5;
+    height: 380px;
+    padding: 10px 15px 20px;
+    /* border: 1px solid #f3f3f3; */
+    display: inline-block;
+    width: 31%;
+    background-color: transparent;
+    vertical-align: top;
+    /* margin-right: 1%; */
+    margin-left: 0;
+    margin-bottom: 2%;
+    padding-bottom: 0px;
+    text-align: center;
+    /* border: 0px solid #ddd; */
+}
+.tensp {
+    padding-top: 10px;
+    text-align: left;
+    
+}
+.tensp>a {
+    color: #333;
+    text-decoration: none;
+    /* font-weight: bold; */
+   text-align: left;
+    font-size: 1.2rem;
+
+}
+.button{
+    margin-left: 45%;
+    /* margin-bottom: 50px; */
+}
+.but{
+    margin-top: 0;
+    margin-bottom: 50px;
+    height: 50px;
+}
+.button.is-outline {
+    line-height: 2.19em;
+}
+.but>a{
+    color:red
+    ;
+}
+.but>a:hover{
+    background-color: red;
+    color: #fff;
+}
+.gioithieu{
+    margin-bottom: 65px;
+    margin-top: 65px;
+}
+.danhmucsp{
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    /* .img_top{
+        height: 500px;
+    } */
+    .img_top>a img{
+        height:60% !important;
+    }
+
+    #conaine_created{
+        /* padding-left:10px !important;
+        padding-right:15px !important; */
+    }
+    .tensp>a {
+        
+       
+        font-size: 1.1rem;
+    }
+  
+    .button{
+        margin-left: 20%;
+      
+
+       
+    }
+    .bglienhe>img {
+        opacity: 0.7;
+        max-height: 120px !important;
+    }
+    .bglienhe{
+        height: 120px !important;
+    }
+    .textlienhe {
+        position: absolute;
+        top: 10px !important;
+        left: 10px !important;
+        color: #ffffff;
+        width: 100%;
+    }
+    .sanpham{
+      width: 48%;
+      height: auto !important;
+    }
+    .sanpham>.ct8bd>.image>a>img{
+        height: 150px !important;
+    }
+    .list>.row{
+        padding: 0 !important;
+    }
+    /* lienhe css */
+    #content-lh{
+        padding-top: 15px;
+    }
+}
+
+/* lienhe css */
+.textlienhe {
+    position: absolute;
+    top: 35px;
+    left: 80px;
+    color: #ffffff;
+    width: 100%;
+}
+
+.bglienhe {
+    /* background-image: url('/fe/img/gioi-thieu-vlxd-manh-tai.png') ; */
+    position: relative;
+    background: #7f7f7f;
+    height: 190px;
+   
+}
+
+.bglienhe>img {
+    opacity: 0.6;
+    max-height: 190px;
+}
+.gioithieu-map{
+    padding-top: 45px;
+    padding-bottom: 65px;
+}

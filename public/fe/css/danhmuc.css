@@ -1,0 +1,79 @@
+.fa-angle-right::before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    display: block;
+    font-weight: 700;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+    line-height: 18px;
+    background: #00cdf9;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: -1px;
+    color: #fff;
+    padding: 0 0 0 6px;
+}
+#ul_phone{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    #ul_meme {
+        padding-left: 10px!important;
+    }
+    .danhmuc_lon{
+        padding-left: 0 !important;
+    }
+    #ul_phone>li{
+        float: none !important;
+    }
+    #ul_phone {
+        margin-left: 0;
+    }
+
+}
+#menu>li{
+     padding-left: 10px;
+}
+
+#ul_menu {
+
+
+    font-size: 110%;
+background: #1a84d8;
+display: block;
+padding: 12px 10px;
+letter-spacing: 0;
+color: #fff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.list-type ul li a{
+color: #323232;
+text-align: left;
+}
+.list-type ul li {
+
+float: none;
+list-style-type: none;
+border: 1px solid #eaeaea;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.navbar-brand{
+   
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+
+
+}
+.navbar_ul{
+    margin-bottom: 0;
+}
